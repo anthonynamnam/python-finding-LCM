@@ -13,4 +13,12 @@ def lcm(*avgs):
     for j in num_list:
         ans = ans * j
     return ans
-print(lcm(*range(2,14)))
+# Find LCM of 2,3,4,5,6
+print(lcm(*range(2,7))) # LCM = 60
+
+# Find LCM of 3,5,7,29
+print(lcm(3,5,7,29)) # LCM = 3045
+
+# Find LCM of 20,30,120,280
+print(lcm(20,30,120,280)) # LCM = 840
+
